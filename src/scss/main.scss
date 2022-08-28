@@ -6,5 +6,11 @@
 
 // подключения компонентов страницы
 @import "./components/header";
+@import "./components/promo";
+@import "./components/buttons";
 
 
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
