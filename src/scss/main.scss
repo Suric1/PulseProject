@@ -13,8 +13,12 @@
 @import "./components/titles";
 @import "./components/forms";
 
-
+body {
+  font-family: 'MuseoModerno';
+}
 .container {
   max-width: 950px;
   margin: 0 auto;
 }
+
+

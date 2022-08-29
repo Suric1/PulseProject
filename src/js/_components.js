@@ -1,1 +1,4 @@
-console.log('components');
+let isChecked = true,
+  isClose = true;
+
+  console.log()

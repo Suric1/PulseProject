@@ -1,1 +1,12 @@
 @include font-face("Muller", "../fonts/", 400, normal);
+
+@font-face {
+  font-family: 'Museo Sans 700 Bold';
+  src: url('../resources/fonts/MuseoSansCyrl-700.eot');
+  src: url('../resources/fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+  url('../MuseoSansCyrl-700.woff') format('woff'),
+  url('../MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
