@@ -1,0 +1,43 @@
+.advantage {
+  &__header {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+ 
+
+  &__column {
+    max-width: 270px;
+  }
+  &__img {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+
+    align-items: flex-end;
+    text-align: center;
+
+    color: #0d0d0d;
+  }
+
+  &__descr {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #0d0d0d;
+  }
+}
