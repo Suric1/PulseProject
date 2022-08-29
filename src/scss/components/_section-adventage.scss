@@ -1,15 +1,19 @@
 .advantage {
+  display: flex;
+
   &__header {
     display: flex;
     justify-content: center;
+
   }
 
   &__wrapper {
+    margin-top: 60px;
     display: flex;
     justify-content: space-around;
   }
 
- 
+
 
   &__column {
     max-width: 270px;
@@ -19,7 +23,7 @@
     justify-content: center;
   }
 
-  &__title {
+  &__subtitle {
     font-weight: 700;
     font-size: 18px;
     line-height: 29px;
