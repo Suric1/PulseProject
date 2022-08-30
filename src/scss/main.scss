@@ -12,11 +12,13 @@
 @import "./components/section-consultation";
 @import "./components/titles";
 @import "./components/forms";
+@import "./components/section-carousel";
 
 body {
   font-family: 'MuseoModerno';
 }
 .container {
+  position: relative;
   max-width: 950px;
   margin: 0 auto;
 }
