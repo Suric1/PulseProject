@@ -15,14 +15,13 @@
 @import "./components/section-carousel";
 @import "./components/section-catalog";
 @import "./components/section-feedback";
+@import "./components/footer";
 
 body {
-  font-family: 'MuseoModerno';
+  font-family: "MuseoModerno";
 }
 .container {
   position: relative;
   max-width: 950px;
   margin: 0 auto;
 }
-
-
